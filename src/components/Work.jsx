@@ -1,10 +1,10 @@
 import React from 'react'
 import proj1 from '../assets/project1.jpeg'
-import proj2 from '../assets/project2.png'
-import proj3 from '../assets/project3.png'
-import proj4 from '../assets/project4.png'
+import proj2 from '../assets/project2.jpeg'
+import proj3 from '../assets/project3.jpeg'
+import proj4 from '../assets/project4.jpeg'
 import proj5 from '../assets/Project.jpeg'
-import proj6 from '../assets/project6.png'
+import proj6 from '../assets/project6.jpeg'
 
 const Work = () => {
   return (
