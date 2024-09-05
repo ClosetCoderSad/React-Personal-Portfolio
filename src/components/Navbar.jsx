@@ -9,6 +9,10 @@ const Navbar = () => {
         setNav(!nav)
     }
 
+    const closeNav = () => {
+        setNav(false)
+    }
+
     return (
             <div className='border border-gray-600 bg-black h-[100px] text-gray-400 max-w-[1200px] mx-auto flex justify-between items-center'>
                 <h1 className='text-3xl font-bold primary-color ml-4'>Abrar's Space</h1>
@@ -27,9 +31,9 @@ const Navbar = () => {
                     : 'fixed left-[-100%]'}>
                     <h1 className='text-3xl primary-color m-4'>Abrar's Space</h1>
                     <ul className='p-8 text-2xl'>
-                        <li className='p-2 hover:text-white ease-in-out duration-500'><a href='#about'>About</a></li>
-                        <li className='p-2 hover:text-white ease-in-out duration-500'><a href='#work'>Work</a></li>
-                        <li className='p-2 hover:text-white ease-in-out duration-500'><a href='#contact'>Contact</a></li>
+                        <li className='p-2 hover:text-white ease-in-out duration-500' onClick={closeNav}><a href='#about'>About</a></li>
+                        <li className='p-2 hover:text-white ease-in-out duration-500' onClick={closeNav}><a href='#work'>Work</a></li>
+                        <li className='p-2 hover:text-white ease-in-out duration-500' onClick={closeNav}><a href='#contact'>Contact</a></li>
                     </ul>
                 </div>
             </div>
